@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Netmeds_Test.Netmeds_Test_1">
+        <methods>
+          <include name="launchWebsite"/>
+          <include name="Payment_Partner_Offers"/>
+          <include name="Stores_Count"/>
+          <include name="Change_Pincode"/>
+          <include name="Location_Info"/>
+          <include name="Netmeds_Stores"/>
+          <include name="Next_Slider_Ad"/>
+          <include name="y"/>
+          <include name="Bottom_Footer"/>
+          <include name="Stores_List"/>
+          <include name="terminate"/>
+          <include name="Stores_Map"/>
+          <include name="Previous_Slider_Ad"/>
+          <include name="x"/>
+        </methods>
+      </class> <!-- Netmeds_Test.Netmeds_Test_1 -->
+      <class name="Netmeds_Test.Netmeds_Test_2">
+        <methods>
+          <include name="x"/>
+          <include name="Beauty_Tools"/>
+          <include name="terminate"/>
+          <include name="launchWebsite"/>
+          <include name="y"/>
+        </methods>
+      </class> <!-- Netmeds_Test.Netmeds_Test_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
